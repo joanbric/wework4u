@@ -1,4 +1,5 @@
 // import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import { mdsvex } from 'mdsvex';
 
@@ -15,6 +16,7 @@ const config = {
 		// 	precompress: false,
 		// 	strict: true
 		// })
+        adapter: adapter()
 	},
     extensions: ['.svelte', '.svx'],
 	preprocess: [
