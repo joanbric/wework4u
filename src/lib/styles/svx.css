@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 3rem;
+    color: var(--fnt-color-strong)
+}
+
+p{
+    padding: 1rem 15px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+img{
+    width: 100%;
+    max-height: 600px;
+    object-fit: contain;
+    padding: none;
+}

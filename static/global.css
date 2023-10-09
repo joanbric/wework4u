@@ -1,0 +1,53 @@
+:root{
+    --fnt-titles: 'Montserrat', sans-serif;
+    --fnt-general: 'Roboto', sans-serif;
+
+    --fnt-color-dark: #333;
+    --fnt-color-light: #fff;
+    --fnt-color-strong: #288982;
+    --fnt-color-link: #199BB9;
+    --fnt-color-green-dark: #173E2C;
+
+
+    --brd-radius-s: 3px;
+    --brd-radius-m: 5px;
+    --brd-radius-l: 12px;
+
+    --clr-dark: #0D3A23;
+    --clr-light: #188070;
+}   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--fnt-general);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--fnt-titles);
+}
+
+a{
+    text-decoration: none;
+    color: var(--fnt-color-link)
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul, li{
+    list-style: none;
+}
+
+strong{
+    color: var(--fnt-color-strong);
+}
+
+img{
+    max-width: 100%;
+}
